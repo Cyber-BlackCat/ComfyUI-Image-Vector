@@ -12,9 +12,11 @@ install guide安装指南:
    (if you are using comfyui-portable, first cd to the folder called"python_embeded",then run "python.exe -m pip install"+"requirements" 如果你用的是comfyui便携版，先导航到python_embeded 这个文件夹，然后用python.exe -m pip install+你要安装的依赖)
 4. install another requirement(https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-33-Q16-HDRI-x64-dll.exe), details on: https://docs.wand-py.org/en/latest/guide/install.html#install-imagemagick-on-windows
 ## install ImageMagick ——a Python Library which support wand run   
- Debian/Ubuntu system:  
-`<sudo apt-get install libmagickwand-dev>`
- Windows  (is more complex)：check this website may be a additional instruction is needed 限于篇幅这里不再详细介绍   
+ Debian/Ubuntu system:   
+`<apt-get update>`    
+`<apt-get install -y imagemagick>`    
+`<sudo apt-get install libmagickwand-dev>`    
+ Windows  (is more complex)：check this website may be a additional instruction is needed 限于篇幅这里不再详细介绍     
  
 https://imagemagick.org/script/download.php#windows
 
