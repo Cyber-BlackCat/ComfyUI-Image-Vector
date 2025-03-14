@@ -3,3 +3,4 @@ Wand
 Pillow
 torch
 numpy
+#'ImageMagick' is necessary but can not install through pip.
