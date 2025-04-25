@@ -1,4 +1,4 @@
-# Image-vector-for-ComfyUI
+# Image-vector-for-ComfyUI：来自于帆哥的矢量化项目，原因是帆哥迟迟不合并修改后的代码，哈哈哈，感谢帆哥。本项目添加了很多很多的指示说明，让小白玩家也能顺利使用此节点，矢量化图片！冲！
 一个打包了vtracer的comfyui节点，用于把像素转矢量  a wrap-up comfyui nodes for concerting pix to raster
 shot out to Vtracer!
 https://github.com/visioncortex/vtracer
