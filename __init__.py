@@ -1,11 +1,11 @@
-from .AIraster import AIraster
+from .Vector import Vector
 
 NODE_CLASS_MAPPINGS = {
-    "AIraster": AIraster
+    "Vector": Vector
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "AIraster": "AIraster"
+    "Vector": "Vector"
 }
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
