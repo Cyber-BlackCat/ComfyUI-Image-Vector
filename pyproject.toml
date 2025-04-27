@@ -1,12 +1,12 @@
 [project]
 name = "comfyui-image-vector"
-description = "modify the original node instruction of image vector, add ‘imagemagick’ which is the key base Python library of ‘wand’ library."
-version = "1.0.1"
+description = "把图片转为矢量图，concert image to raster. "
+version = "1.0.0"
 license = "LICENSE"
 dependencies = ["vtracer", "Wand", "Pillow", "torch", "numpy"]
 
 [project.urls]
-Repository = "https://github.com/AARG-FAN/Image-Vector-for-ComfyUI"
+Repository = "https://github.com/Cyber-BlackCat/ComfyUI-Image-Vector"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
