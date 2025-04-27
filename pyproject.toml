@@ -1,6 +1,6 @@
 [project]
 name = "comfyui-image-vector"
-description = ""
+description = "modify the original node instruction of image vector, add ‘imagemagick’ which is the key base Python library of ‘wand’ library."
 version = "1.0.1"
 license = "LICENSE"
 dependencies = ["vtracer", "Wand", "Pillow", "torch", "numpy"]
